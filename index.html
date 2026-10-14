@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NZ Constitutional Restoration</title>
+    <meta
+      name="description"
+      content="A permanent, open-access archive hosting the Master Edition of a research document on New Zealand's constitutional history."
+    />
+    <style>
+      :root {
+        --bg: #0b1320;
+        --panel: #111d2d;
+        --text: #edf5ff;
+        --muted: #b9c8d8;
+        --accent: #7ec8ff;
+        --accent-strong: #3da9ff;
+        --border: rgba(255, 255, 255, 0.12);
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(180deg, #081119 0%, #0d1725 100%);
+        color: var(--text);
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 48px 20px 64px;
+      }
+
+      .card {
+        background: rgba(17, 29, 45, 0.9);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 32px 28px;
+        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      h1 {
+        margin: 0 0 18px;
+        font-size: clamp(2rem, 4vw, 3rem);
+        line-height: 1.1;
+      }
+
+      p {
+        color: var(--muted);
+        font-size: 1.05rem;
+        line-height: 1.7;
+      }
+
+      .tag {
+        display: inline-block;
+        padding: 8px 14px;
+        border-radius: 999px;
+        background: rgba(126, 200, 255, 0.12);
+        border: 1px solid rgba(126, 200, 255, 0.2);
+        color: var(--accent);
+        font-size: 0.8rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+      }
+
+      .actions {
+        margin-top: 26px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 12px 18px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: 0.2s ease;
+      }
+
+      .button.primary {
+        background: var(--accent-strong);
+        color: #04101b;
+      }
+
+      .button.secondary {
+        background: transparent;
+        border: 1px solid var(--border);
+        color: var(--text);
+      }
+
+      .button:hover {
+        filter: brightness(1.08);
+      }
+
+      .info {
+        margin-top: 24px;
+        padding-top: 18px;
+        border-top: 1px solid var(--border);
+      }
+
+      code {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 2px 6px;
+        font-size: 0.96em;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <section class="card">
+        <div class="tag">Open Archive</div>
+        <h1>NZ Constitutional Restoration</h1>
+
+        <p>
+          This repository is intended to host a permanent, open-access archive of the Master Edition of
+          the New Zealand constitutional history research document and related material.
+        </p>
+
+        <div class="actions">
+          <a class="button primary" href="https://archive.org/details/new-zealand-constituional-history-common-law-and-restoration" target="_blank" rel="noopener noreferrer">
+            Open Archive.org item
+          </a>
+          <a class="button secondary" href="https://github.com/UnitedNewZealand/nzconstitutionalrestoration.github.io" target="_blank" rel="noopener noreferrer">
+            View repository
+          </a>
+        </div>
+
+        <div class="info">
+          <p>
+            This page links directly to the Archive.org record for the New Zealand constitutional history and restoration archive.
+          </p>
+          <p>
+            More files, documents, and supplemental material can be added to this repository over time.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
