@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "project": {
+    "title": "New Zealand Constitutional History, Common Law and Restoration",
+    "short_title": "NZ Constitutional Restoration",
+    "description": "An open-access archive of research on New Zealand constitutional history, common law foundations, Māori history, colonial administration, and modern governance.",
+    "repository": "https://github.com/UnitedNewZealand/nzconstitutionalrestoration.github.io"
+  },
+  "master_edition": {
+    "title": "New Zealand Constitutional History, Common Law and Restoration",
+    "file": "NEW ZEALAND CONSTITUIONAL HISTORY, COMMON LAW  AND RESTORATION.pdf",
+    "archive_url": "https://archive.org/details/new-zealand-constituional-history-common-law-and-restoration"
+  },
+  "license": {
+    "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "spdx_id": "CC-BY-SA-4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "language": ["en"],
+  "subjects": [
+    "New Zealand constitutional history",
+    "Common law",
+    "Māori history",
+    "Pre-1840 Auckland sovereignty",
+    "Colonial administration",
+    "New Zealand governance"
+  ]
+}
